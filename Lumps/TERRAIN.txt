@@ -1,0 +1,78 @@
+SPLASH TGRWasser
+{
+	smallclass		TGR_TerKlassZwei
+	smallclip		0
+	smallsound		world/WasserSpitzerK
+
+	baseclass		TGR_TerKlassZwei
+	chunkclass		TGR_TerKlassEins
+	chunkxvelshift	8
+	chunkyvelshift	8
+	chunkzvelshift	8
+	chunkbasezvel	2
+	sound			world/WasserSpitzer
+	NoAlert
+}
+SPLASH TGRBlut
+{
+	smallclass		TGR_TerKlassDrei
+	smallclip		0
+	smallsound		world/SchlammloopK
+
+	baseclass		TGR_TerKlassDrei
+	chunkclass		TGR_TerKlassDrei
+	chunkxvelshift	0
+	chunkyvelshift	0
+	chunkzvelshift	0
+	chunkbasezvel	0
+	sound			world/Schlammloop
+	NoAlert
+}
+SPLASH TGRSchleim
+{
+	smallclass		TGR_TerKlassFuenf
+	smallclip		6
+	smallsound		world/SchlammloopK
+
+	baseclass		TGR_TerKlassFuenf
+	chunkclass		TGR_TerKlassVier
+	chunkxvelshift	8
+	chunkyvelshift	8
+	chunkzvelshift	8
+	chunkbasezvel	1
+	sound			world/Schlammloop
+	NoAlert
+}
+terrain TGRWasser
+{
+	splash			TGRWasser
+	footclip		10
+	liquid
+}
+terrain TGRBlut
+{
+	splash			TGRBlut
+	footclip		10
+	liquid
+}
+terrain TGRSchleim
+{
+	splash			TGRSchleim
+	footclip		10
+	liquid
+}
+floor TF_00 TGRBlut
+floor TF_01 TGRBlut
+floor TF_02 TGRBlut
+floor TF_03 TGRWasser
+floor TF_04 TGRWasser
+floor TF_05 TGRWasser
+floor TF_06 TGRWasser
+floor TF_07 TGRSchleim
+floor TF_08 TGRSchleim
+floor TF_09 TGRSchleim
+floor TF_0A TGRSchleim
+floor TF_0B TGRSchleim
+floor TF_0C TGRSchleim
+floor TF_0D TGRSchleim
+floor TF_0E TGRSchleim

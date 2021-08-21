@@ -1,0 +1,95 @@
+defaultmap
+clearepisodes
+
+episode TGRCP01
+name " TGRCP1  Navala"
+key T
+
+episode MAP01
+name " Doom 2"
+Key D
+
+MAP TGRCP01 "First Strike"
+SKY1 SKY00_1 0.0
+LEVELNUM 1
+ALLOWMONSTERTELEFRAGS
+TITLEPATCH TGRLV00
+FALLINGDAMAGE
+NOCROUCH
+ALLOWJUMP
+CLUSTER 1
+PAR 75
+MUSIC D_M1
+NEXT TGRCP02
+
+MAP TGRCP02 "Underwater HQ"
+CLUSTER 1
+LEVELNUM 2
+ALLOWMONSTERTELEFRAGS
+TITLEPATCH TGRLV01
+FALLINGDAMAGE
+NOCROUCH
+ALLOWJUMP
+PAR 90
+MUSIC D_M2
+NEXT TGRCP03
+
+MAP TGRCP03 "Lavatory Of Doom"
+SKY1 SKY00_9 0.0
+LEVELNUM 3
+CLUSTER 1
+ALLOWMONSTERTELEFRAGS
+TITLEPATCH TGRLV02
+FALLINGDAMAGE
+NOCROUCH
+ALLOWJUMP
+PAR 75
+MUSIC D_M3
+NEXT TGRCP04
+
+MAP TGRCP04 "Ultra Violence"
+SKY1 SKY01_5 1.0
+LEVELNUM 4
+CLUSTER 1
+ALLOWMONSTERTELEFRAGS
+TITLEPATCH TGRLV03
+FALLINGDAMAGE
+NOCROUCH
+ALLOWJUMP
+PAR 140
+MUSIC D_M4
+NEXT TGRCP05
+
+MAP TGRCP05 "Heart Of Evil"
+SKY1 SKY01_7 0.0
+SKY2 SKY00_4 0.1
+LEVELNUM 5
+ALLOWMONSTERTELEFRAGS
+TITLEPATCH TGRLV04
+FALLINGDAMAGE
+NOCROUCH
+ALLOWJUMP
+PAR 305
+CLUSTER 1
+Next EndGameC
+
+MAP CREDMAP "Credit Map"
+LEVELNUM 6
+
+CLUSTERDEF 1
+FLAT SLIME15
+MUSIC D_EG
+EXITTEXT
+"Congratulations, you've won the battle
+and destroyed one of the leading demons,
+but the war isn't over.  There is still
+more demons and there is still hell on earth.
+With one of the leading demons destroyed,
+you can easily clean out the rest of the
+garbage nearby.
+You wipe the sweat from your face
+and watch the blood river flow easily.
+But you later hear screams on the other side
+of the hill.
+
+Now your next voyage begins!"

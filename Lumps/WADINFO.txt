@@ -1,0 +1,105 @@
+===========================================================================
+Archive Maintainer      : Would you kindly replace 'tgrcp1.zip' with this version. 
+Update to               : tgrcp1.zip [ levels/doom2/Ports/s-u/tgrcp1.zip ]
+Advanced engine needed  : ZDoom 2.4.1 and later
+Primary purpose         : Single + coop play
+===========================================================================
+Title                   : Navala
+Filename                : TGRCP1.wad
+Release date            : 25 November. 2012
+Author                  : Nicholas "Tiger" Gautier
+Email Address           : SibTiger_and_Life@Hotmail.com
+
+Description             : TGRCP1 has 5 maps, with new features, and easier
+                          to setup from either Offline gameplay to Online
+                          gameplay!
+                          
+                          Version 1.00: 20 April. 2007
+                               Original release
+                          
+                          Version 1.75: 2 Augest. 2008
+                               Rewritten the whole ACS Trays
+                               Fixed alot of Bugs
+                               Fixed Runtime issues
+                               Small changes in the maps
+                               Added the "SVS" feature
+                               Updated "RPC"
+                          
+                          Version 1.76: 15 June. 2009
+                               Fixed a compatiablity issue on Skulltag 97e!
+                               Wall cameras are not so distorted!
+                               Fixed the platform height issue, on map five.
+                          
+                          Version 1.77: 17 June. 2009
+                               Skulltag Monsters no longer fight with the same type.
+                               Fixed the Map Rotation sequence for Online users.
+                          
+                          Unversioned Updates: 23 November. 2012
+                               Expunged a superfluous lump
+                               Created a new WADINFO
+                               Changed version scheme 1.77 -> 1.03
+                          
+                          Version 1.04: 25 November. 2012
+                               Ported the project to ZDoom!
+                                Resources used from:
+                                  * Monsters
+                                     SkullTag\Zandronum
+                                  * Weapons
+                                     Realm667 Resources
+                                  * Spheres
+                                     Realm667 Resources
+                                Sadly, not everything was ported over: Runes, and 
+                                 some armor and health bonuses.
+                               Converted images to PNG format.
+                               Minor revision on the ClusterDef message.
+                          
+Credits                 : Sonja W. - Beta Tester
+                          Bill W. - Beta Tester
+                          Jacqueline K. - Beta Tester
+                          KeksDose - Translations for 'TGRCP1DE'
+                          Torr Samaho - Assistance
+===========================================================================
+* What is included *
+
+New levels              : 5
+Sounds                  : Yes
+Music                   : Yes
+Graphics                : Yes
+Dehacked/BEX Patch      : Yes
+Demos                   : No
+Other                   : No
+Other files required    : None
+
+
+* Play Information *
+
+Game                    : Doom 2
+Map #                   : TGRCP01 - TGRCP05
+Single Player           : Designed for
+Cooperative 2-4 Player  : Designed for
+Deathmatch 2-4 Player   : No
+Other game styles       : None
+Difficulty Settings     : Yes
+
+
+* Construction *
+
+Base                    : New from scratch
+Editor(s) used          : Doom Builder, Extendable Wad Editor (XWE), WHackEd2
+
+
+* Copyright / Permissions *
+
+Authors MAY use the contents of this file as a base for modification or
+reuse.  Permissions have been obtained from original authors for any of
+their resources modified or included in this file.
+
+You MAY distribute this file, provided you include this text file, with no
+modifications.  You may distribute this file in any electronic format (BBS,
+Diskette, CD, etc) as long as you include this file intact.  I have
+received permission from the original authors of any modified or included
+content in this file to allow further distribution.
+
+* Where to get the file that this text file describes *
+
+The Usual: ftp://archives.3dgamers.com/pub/idgames/ and mirrors

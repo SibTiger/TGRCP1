@@ -1,0 +1,242 @@
+Thing 2 (Trooper)
+Hit points = 50
+
+Thing 3 (Sargeant)
+Hit points = 75
+
+Thing 4 (Archvile)
+Hit points = 1750
+
+Thing 6 (Revenant)
+Hit points = 750
+
+Thing 9 (Mancubus)
+Hit points = 1500
+
+Thing 11 (Chaingun Sargeant)
+Hit points = 175
+
+Thing 12 (Imp)
+Hit points = 150
+
+Thing 13 (Demon)
+Hit points = 375
+
+Thing 14 (Spectre)
+Hit points = 375
+
+Thing 15 (Cacodemon)
+Hit points = 1000
+
+Thing 16 (Baron of Hell)
+Hit points = 2500
+
+Thing 18 (Hell Knight)
+Hit points = 1250
+
+Thing 19 (Lost Soul)
+Hit points = 250
+
+Thing 20 (Spiderdemon)
+Hit points = 7500
+
+Thing 21 (Arachnotron)
+Hit points = 1250
+
+Thing 22 (Cyberdemon)
+Hit points = 9530
+Bits = SOLID + SHOOTABLE + JUSTATTACKED + COUNTKILL
+
+Thing 23 (Pain Elemental)
+Hit points = 1000
+
+Thing 26 (Big Brain)
+Hit points = 100
+
+[STRINGS]
+D_CDROM = WARNING! \nUnknown Error Resulting "Doom CD Version!" \n\nPress any key to continue
+QUITMSG = Are you sure you want to quit?\n\nPress Y \"Yes\" or N \"No\"\nTo Continue
+QUITMSG1 = Are you sure you want to quit?\n\nPress Y \"Yes\" or N \"No\"\nTo Continue
+QUITMSG2 = Are you sure you want to quit?\n\nPress Y \"Yes\" or N \"No\"\nTo Continue
+QUITMSG3 = Are you sure you want to quit?\n\nPress Y \"Yes\" or N \"No\"\nTo Continue
+QUITMSG4 = Are you sure you want to quit?\n\nPress Y \"Yes\" or N \"No\"\nTo Continue
+QUITMSG5 = Are you sure you want to quit?\n\nPress Y \"Yes\" or N \"No\"\nTo Continue
+QUITMSG6 = Are you sure you want to quit?\n\nPress Y \"Yes\" or N \"No\"\nTo Continue
+QUITMSG7 = Are you sure you want to quit?\n\nPress Y \"Yes\" or N \"No\"\nTo Continue
+QUITMSG8 = Are you sure you want to quit?\n\nPress Y \"Yes\" or N \"No\"\nTo Continue
+QUITMSG9 = Are you sure you want to quit?\n\nPress Y \"Yes\" or N \"No\"\nTo Continue
+QUITMSG10 = Are you sure you want to quit?\n\nPress Y \"Yes\" or N \"No\"\nTo Continue
+QUITMSG11 = Are you sure you want to quit?\n\nPress Y \"Yes\" or N \"No\"\nTo Continue
+QUITMSG12 = Are you sure you want to quit?\n\nPress Y \"Yes\" or N \"No\"\nTo Continue
+QUITMSG13 = Are you sure you want to quit?\n\nPress Y \"Yes\" or N \"No\"\nTo Continue
+QUITMSG14 = Are you sure you want to quit?\n\nPress Y \"Yes\" or N \"No\"\nTo Continue
+LOADNET = WARNING!\nYou can not load a game during a\nmultiplayer game!\n\nPress any key to continue
+QLOADNET = WARNING!\nYou can not load a game during a\nmultiplayer game!\n\nPress any key to continue
+QSAVESPOT = WARNING!\nYou must save the game before doing\na quicksave of the current game! \nPress any key to continue
+SAVEDEAD = WARNING!\nUnknown Error Resulting \"Save\"\n\nPress any key to continue
+QLPROMPT = Are you sure you want to load '%s'?
+NEWGAME = WARNING!\nYou can not start a new game\nwhile playing on a network game.\n\npress any key to continue
+NIGHTMARE = Are you sure you want to continue?\npress y \"Yes\" or n \"No\"\nto continue
+SWSTRING = WARNING!\nUnknown Error Resulting \"Version_Doom\"\n\nPress any key to continue
+MSGOFF = Messages are now (OFF)
+MSGON = Messages are now (ON)
+NETEND = WARNING! \nYou can not end a multiplayer game!\n\nPress any key to continue
+ENDGAME = Are you sure you want to end this game?\n\nPress Y \"Yes\" or N \"No\"\nto continue
+EMPTYSTRING = - Free Section -
+GGSAVED = This game has been saved!
+SAVEGAMENAME = TGRCP1_EN
+GOTARMOR = Picked up the armor!
+GOTMEGA = Picked up the MegaArmor!
+GOTHTHBONUS = Picked up a health bonus!
+GOTARMBONUS = Picked up a armor bonus!
+GOTSTIM = Picked up a stimpack!
+GOTMEDINEED = Picked up a medikit, that you really needed!
+GOTMEDIKIT = Picked up a medikit!
+GOTSUPER = Picked up the Supercharge!
+GOTBLUECARD = Picked up the blue keycard!
+GOTYELWCARD = Picked up the yellow keycard!
+GOTREDCARD = Picked up the red keycard!
+GOTBLUESKUL = Picked up the blue skull key!
+GOTYELWSKUL = Picked up the yellow skull key!
+GOTREDSKUL = Picked up the red skull key!
+GOTBERSERK = Berserk!
+GOTMAP = Picked up the Computer Area Map!
+GOTMSPHERE = Picked up the MegaSphere!
+GOTCLIP = Picked up a Clip!
+GOTCLIPBOX = Picked up a box of bullets!
+GOTROCKET = Picked up a rocket!
+GOTROCKBOX = Picked up a box of rockets!
+GOTCELL = Picked up a energy cell!
+GOTCELLBOX = Picked up a energy cell pack!
+GOTBACKPACK = Picked up a backpack full of ammo!
+GOTBFG9000 = You got the Bio Force Gun 9000!
+GOTCHAINGUN = You got the chaingun!
+GOTCHAINSAW = You got the chainsaw!
+GOTLAUNCHER = You got the rocket launcher!
+GOTPLASMA = You got the plasma gun!
+GOTSHOTGUN = You got the shotgun!
+GOTSHOTGUN2 = You got the super shotgun!
+PD_BLUEK = You need a blue key to open this door!
+PD_REDK = You need a red key to open this door!
+PD_YELLOWK = You need a yellow key to open this door!
+PD_BLUEC = You need a blue keycard to open this door!
+PD_REDC = You need a red keycard to open this door!
+PD_YELLOWC = You need a yellow keycard to open this door!
+PD_BLUES = You need a blue skull key to open this door!
+PD_REDS = You need a red skull key to open this door!
+PD_YELLOWS = You need a yellow skull key to open this door!
+AMSTR_FOLLOWON = Map Follow Mode Is Now (ON)
+AMSTR_FOLLOWOFF = Map Follow Mode Is Now (OFF)
+AMSTR_GRIDON = Map Grid Is Now (ON)
+AMSTR_GRIDOFF = Map Grid Is Now (OFF)
+AMSTR_MARKEDSPOT = Placed a mark on the map!
+AMSTR_MARKSCLEARED = Cleared All the Marks from the Map!
+STSTR_MUS = Please wait, while "Skulltag" changes the music on request. . .
+STSTR_NOMUS = Failure, Bad request name!
+STSTR_DQDON = God Mode Is Now (ON)
+STSTR_DQDOFF = God Mode Is Now (Off)
+STSTR_KFAADDED = You now have All Weapons, Full Ammo, and All Keys!
+STSTR_FAADDED = You now have All Weapons, and Full Ammo
+STSTR_NCON = No Clipping Mode Is Now (ON)
+STSTR_NCOFF = No Clipping Mode Is Now (Off)
+STSTR_BEHOLD = Player Action : BEHOLD > Command Selection
+STSTR_BEHOLDX = BEHOLD Command > ACTION
+STSTR_CLEV = Please wait, while "Skulltag" changes the level on request. . .
+STSTR_CHOPPERS = Murder!
+CC_ZOMBIE = The Zombieman
+CC_SHOTGUN = The Shotgun Guy
+CC_HEAVY = The Chaingunner Guy
+CC_IMP = The Imp
+CC_DEMON = The Demon
+CC_LOST = The Lost Soul
+CC_CACO = The Cacodemon
+CC_HELL = The Hell Knight
+CC_BARON = The Baron Of Hell
+CC_ARACH = The Arachnotron
+CC_PAIN = The Pain Elemental
+CC_REVEN = The Revenant
+CC_MANCU = The Mancubus
+CC_ARCH = The Archvile
+CC_SPIDER = The Spider Mastermind
+CC_CYBER = The Cyberdemon
+CC_Hero = The Hero
+OB_SUICIDE = %o Thought It Was To Much
+OB_KILLEDSELF = %o Thought It Was To Much
+OB_FALLING = %o Fell Too Far
+OB_FALL_2 = %o Fell Too Far
+OB_CRUSH = %o Is Squished
+OB_EXIT = %o Found The Trick Exit!
+OB_EXIT_2 = %o Found The Trick Exit!
+OB_SELF_2 = %o Didn't Like %p Life
+OB_WATER = %o Couldn't Swim
+OB_SLIME = %o Mutated
+OB_LAVA = %o Melted
+OB_SPLASH = %o Stood In The Wrong Spot
+OB_R_SPLASH = %o Never Did Like %g Life Anyways
+OB_ROCKET = %o Stood To Close
+OB_KILLEDSELF = %o Killed %h Self
+OB_UNDEADHIT = %o Couldn't Stand The Fight With Revenant
+OB_IMPHIT = %o Was Scratched By An Imp
+OB_CACOHIT = %o Couldn't See The Cacodemon
+OB_DEMONHIT = %o Was Dinner To The Demon
+OB_SPECTREHIT = %o Was Desert To The Spectre Demon
+OB_BARONHIT = %o Was Slashed By The Baron Of Hell
+OB_KNIGHTHIT = %o Was Slashed By The Hell Knight
+OB_ZOMBIE = %o Was Shot By A Zombie
+OB_SHOTGUY = %o Was Shot By The Shotgun Guy
+OB_VILE = %o Turned Into Barbeque From The Archvile
+OB_UNDEAD = %o Couldn't Dodge Revenant's Fireball
+OB_FATSO = %o Was Stomped By A Mancubus
+OB_CHAINGUY = %o Was Gunned Down By A Chain gunner
+OB_SKULL = %o Was Spooked By The Lost Soul
+OB_IMP = %o Caught The Imp's Fireball
+OB_DARKIMP = %o Couldn't Dodge The Fast Fireball From The Dark Imp
+OB_CACO = %o Caught The Cacodemons Fireball
+OB_BARON =  %o Caught Baron Of Hell's Fireball
+OB_KNIGHT = %o Caught Hell Knight's Fireball
+OB_SPIDER = %o Was Gunned Down By The Spider Mastermind
+OB_BABY = %o Was Melted By Arachnotron's Plasma
+OB_CYBORG = %o Couldn't Stand The Fight With The Cyberdemon
+OB_DEFAULT = %o Died
+OB_MPTELEFRAG = %o Was Teleported On %s
+OB_FRIENDLY1 = %o Couldn't Determine A Human To A Demon
+OB_FRIENDLY2 = %o Didn't Like %h Anyways
+OB_FRIENDLY3 = %o Loses A Friend
+OB_FRIENDLY4 = %o Thinks That This Is Deathmatch
+OB_BELPHEGOR = %o Couldn't Dodge Belphegor's Fast Fireball's
+OB_BELPHEGOR_MELEE = %o Was Slashed By Belphegor
+OB_BLOODDEMON_MELEE = %o Became Breakfast For The Blood Demon
+OB_ABADDON = %o Couldn't Handle The Abadden
+OB_ABADDON_MELEE = %o Couldn't Handle The Abadden
+OB_CACOLANTERN = %o Couldn't Take On The Cacolantern
+OB_CACOLANTERN_MELEE = %o Couldn't Take On The Cacolantern
+OB_HECTEBUS = %o Was Blasted By The Hectebus
+OB_SSGGUY = %o Was Blasted By Super Shotgun Guy
+OB_CACODEMON_MELEE_RARE = %o Caught The Cacodemons Fireball
+OB_BARON_MELEE_RARE = %o Caught Baron Of Hell's Fireball
+OB_ROCKET_SELF_2 = %o Doesn't Know How To Use A Rocket Launcher
+OB_ROCKET_SELF_3 = %o Doesn't Know How To Use A Rocket Launcher
+OB_ROCKET_SELF_RARE = %o Didn't Like %p Life
+OB_GRENADE_SELF = %o Doesn't Know How To Use A Grenade Launcher
+OB_GRENADE_SELF_2 = %o Doesn't Know How To Use A Grenade Launcher
+OB_GRENADE_SELF_3 = %o Doesn't Know How To Use A Grenade Launcher
+OB_BFG10K_SELF = %o Doesn't Know How To Use The Bio Force Gun 10000
+OB_BFG10K_SELF_2 = %o Doesn't Know How To Use The Bio Force Gun 10000
+STARTUP1 = Skulltag Is Starting Up...
+STARTUP2 = Tigers Files (TGRxxx Files)
+STARTUP3 = TGRCP1 (Codename Navala) Edition
+STARTUP4 = Version: 1.77 Edition
+STARTUP5 = TGRCP1 Language (English "UK")
+PICKUP_REDARMOR = Picked up the Red Armor!
+PICKUP_MAXHEALTHBONUS = Picked up a Health Bonus!
+PICKUP_MAXARMORBONUS = Picked up a Armor Bonus!
+PICKUP_DOOMSPHERE = Picked up the Doom Sphere!
+PICKUP_STRENGTH = Picked up the Strength Rune!
+PICKUP_RAGE = Picked up the Rage Rune!
+PICKUP_Regeneration = Picked up the Regeneration Rune!
+PICKUP_Pistol_dropped = Picked up a Pistol with some ammo!
+PICKUP_PISTOL = Picked up the Pistol!
+PICKUP_MINIGUN = Picked up the Minigun!
+PICKUP_GRENADELAUNCHER = Picked up the Grenade Launcher!
+PICKUP_RAILGUN = Picked up the Railgun!
+PICKUP_BFG10K = Picked up the Bio Force Gun 10000!

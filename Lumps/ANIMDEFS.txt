@@ -1,0 +1,32 @@
+TEXTURE TF_00
+pic TF_00 tics 8
+pic TF_01 tics 8
+pic TF_02 tics 8
+TEXTURE TF_03
+pic TF_03 tics 8
+pic TF_04 tics 8
+pic TF_05 tics 8
+pic TF_06 tics 8
+TEXTURE TF_07
+pic TF_07 tics 8
+pic TF_08 tics 8
+pic TF_09 tics 8
+pic TF_0A tics 8
+TEXTURE TF_0B
+pic TF_0B tics 8
+pic TF_0C tics 8
+pic TF_0D tics 8
+pic TF_0E tics 8
+TEXTURE TF_10
+pic TF_10 tics 8
+pic TF_11 tics 8
+pic TF_12 tics 8
+TEXTURE FLT03_6
+pic FLT03_6 tics 8
+pic FLT03_7 tics 8
+pic FLT03_8 tics 8
+cameratexture WALLCAM1 92 92 fit 56 55
+cameratexture WALLCAM2 92 92 fit 56 55
+cameratexture WALLCAM3 92 92 fit 56 55
+cameratexture WALLCAM4 92 92 fit 56 55
+cameratexture WALLCAM5 92 92 fit 56 55

@@ -1,0 +1,91 @@
+PulseLight DOOMSPHERE
+{
+	Color 0.5 0.0 0.0
+	Size 40
+	SecondarySize 42
+	Interval 2.0
+	Offset 0 16 0
+}
+
+Object STDoomSphere
+{
+	Frame DOOM { Light DOOMSPHERE }
+}
+
+PointLight BFG10kShot
+{
+	Color 0.0 1.0 0.0
+	Size 80
+}
+
+FlickerLight BFG10KSHOT_X1
+{
+	Color 0.0 1.0 0.0
+	Size 80
+	SecondarySize 88
+	Chance 0.3
+}
+
+FlickerLight BFG10KSHOT_X2
+{
+	Color 0.0 1.0 0.0
+	Size 104
+	SecondarySize 112
+	Chance 0.3
+}
+
+FlickerLight BFG10KSHOT_X3
+{
+	Color 0.0 1.0 0.0
+	Size 120
+	SecondarySize 128
+	Chance 0.3
+}
+
+Object STBFG10kShot
+{
+	Frame BFE1A0 { Light BFG10KSHOT }
+	Frame BFE1B0 { Light BFG10KSHOT }
+	Frame BFE1C0 { Light BFG10KSHOT_X1 }
+	Frame BFE1D0 { Light BFG10KSHOT_X2 }
+	Frame BFE1E0 { Light BFG10KSHOT_X3 }
+}
+
+
+PointLight GRENADE
+{
+	Color 1.0 0.5 0.0
+	Size 22
+}
+
+FlickerLight GRENADE_X1
+{
+	Color 1.0 0.5 0.0
+	Size 22
+	SecondarySize 72
+	Chance 0.3
+}
+
+FlickerLight GRENADE_X2
+{
+	Color 0.3 0.0 0.0
+	Size 28
+	SecondarySize 88
+	Chance 0.3
+}
+
+FlickerLight GRENADE_X3
+{
+	Color 0.2 0.0 0.0
+	Size 32
+	SecondarySize 104
+	Chance 0.3
+}
+
+Object STGrenade
+{
+	Frame SGRN { Light GRENADE }
+	Frame MISLB { Light GRENADE_X1 }
+	Frame MISLC { Light GRENADE_X2 }
+	Frame MISLD { Light GRENADE_X3 }
+}

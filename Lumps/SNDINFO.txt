@@ -1,0 +1,53 @@
+ASW1	ASW1
+ASW2	ASW2
+ASW3	ASW3
+ASW4	ASW4
+ASW5	ASW5
+ASW6	ASW6
+ASW7	ASW7
+ASW8	ASW8
+ASW9	ASW9
+ASW10	ASW10
+ASW11	ASW11
+ASW12	ASW12
+$AMBIENT 1 ASW1 POINT CONTINUOUS 0.5
+$AMBIENT 2 ASW2 POINT CONTINUOUS 0.5
+$AMBIENT 3 ASW3 POINT RANDOM 10.0 15.0 0.5
+$AMBIENT 4 ASW4 POINT RANDOM 20.0 40.0 0.5
+$AMBIENT 5 ASW5 POINT RANDOM 25.0 38.0 0.5
+$AMBIENT 6 ASW6 POINT RANDOM 15.0 45.0 0.5
+$AMBIENT 7 ASW7 POINT RANDOM 27.0 32.0 0.5
+$AMBIENT 8 ASW8 POINT RANDOM 15.0 40.0 0.5
+$AMBIENT 9 ASW9 POINT RANDOM 10.0 25.0 0.5
+$AMBIENT 10 ASW10 POINT CONTINUOUS 0.5
+$AMBIENT 12 ASW12 POINT CONTINUOUS 0.2
+world/WasserSpitzer		TAS01
+world/WasserSpitzerK	TAS02
+world/Schlammloop		TAS03
+world/SchlammloopK		TAS04
+$limit world/WasserSpitzer 1
+$limit world/WasserSpitzerK 2
+$limit world/Schlammloop 1
+$limit world/SchlammloopK 2
+
+//SuperShotgun Guy Monster
+// This is directly from SkullTag's and Zandronum's source
+// Primarily from skulltag_actors.pk3
+ssgguy/attack                   dssggatk
+
+
+// REALM667 RESOURCES
+//Minigun
+weapons/minigunfire DSMINIGN
+
+//GrenadeLauncher
+Weapons/GrenLF	DSGLAUNC
+Weapons/GrenLX	DSGRNEXP
+Weapons/GrBnce	DSBOUNCE
+
+//BFG 10k
+Weapons/BFG10KF		DSBFG10K
+Weapons/BFG10KX		DSBAREXP
+Weapons/BFG10KCool	DS10KCDN
+Weapons/BFG10KIdle	DS10KIDL
+$Limit	Weapons/BFG10KX	0
